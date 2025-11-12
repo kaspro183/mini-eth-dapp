@@ -1,0 +1,28 @@
+{
+  "name": "mini-eth-dapp-counter",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Mini dApp Ethereum (Sepolia) avec Counter.sol + frontend (ethers.js, MetaMask).",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "keywords": [
+    "ethereum",
+    "sepolia",
+    "web3",
+    "ethers",
+    "dapp",
+    "solidity",
+    "hardhat",
+    "counter"
+  ],
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0"
+  },
+  "license": "MIT"
+}
